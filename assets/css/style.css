@@ -154,3 +154,10 @@ body {
     text-transform: uppercase !important;
     color: white;
 }
+
+@media (max-width: 900px){
+    .hero-title .letter {
+        font-size: 24px !important;
+    }
+}
+
