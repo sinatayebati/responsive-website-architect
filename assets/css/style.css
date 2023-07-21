@@ -68,3 +68,52 @@ body {
 .overlay ul li {
     font-size: 84px;
 }
+
+/* for displays bigger than 900px */
+
+@media (max-width: 900px) {
+    .overlay ul li {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+}
+
+.overlay ul li a {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-family: "Times New Roman";
+    text-transform: uppercase !important;
+}
+
+.overlay ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.media {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 2em;
+    z-index: 2;
+}
+
+.media ul {
+    list-style: none;
+}
+
+.media ul li {
+    padding: 10px 0;
+}
+
+.media ul li a {
+    color: white;
+}
+
+.view-photos {
+    position: absolute;
+    left: 0;
+    bottom: 1em;
+    margin: 2em;
+    z-index: 2;
+}
