@@ -43,3 +43,51 @@ TweenMax.from(".view-photos", 2, {
     ease: Expo.easeInOut,
     delay: 1.4
 });
+
+TweenMax.staggerFrom(
+    ".media ul li",
+    2,
+    {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.6
+    },
+    0.1
+);
+
+t1.to(".overlay", 1, {
+    opacity: 1,
+    ease: Expo.easeInOut
+});
+
+t1.to(".view-photos, .media", 1, {
+    opacity: 0,
+    ease: Expo.easeInOut
+});
+
+t1.staggerFrom(
+    ".menu ul li",
+    1,
+    {
+        y: 100,
+        opacity: 0,
+        ease: Expo.easeOut
+    
+    },
+    0.1
+);
+
+t1.reverse();
+$(document).on("click", ".menu-toggle", function() {
+    t1.reversed(!t1.reversed());
+});
+
+$(document).on("click", ".close-btn", function() {
+    t1.reversed(!t1.reversed());
+});
+
+t1.reverse();
+$(document).on("click", "li", function() {
+    t1.reversed(!t1.reversed());
+});
