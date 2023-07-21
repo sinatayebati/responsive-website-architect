@@ -117,3 +117,40 @@ body {
     margin: 2em;
     z-index: 2;
 }
+
+.view-photos a {
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.view-photos a:hover {
+    color: white;
+}
+
+.hero-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title h1 {
+    font-size: 80px;
+    font-weight: lighter;
+    text-transform: uppercase !important;
+    color: white;
+}
