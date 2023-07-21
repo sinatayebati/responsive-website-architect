@@ -161,3 +161,49 @@ body {
     }
 }
 
+.hero-title .letter {
+    display: inline-block;
+    opacity: 0;
+    font-size: 80px;
+    color: white;
+    font-family: "Times New Roman";
+    text-transform: uppercase !important;
+}
+
+.about-section {
+    padding: 120px 0;
+}
+
+.about-section h1 {
+    font-size: 84px;
+    font-family: "Times New Roman";
+    text-transform: uppercase;
+}
+
+.about-section h3 {
+    font-family: Helvetica;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.about-link {
+    margin: 50px 0;
+}
+
+.about-link a {
+    color: black;
+    padding: 18px 36px;
+    border: 1px solid black;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.about-link a:hover {
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+
+
+
