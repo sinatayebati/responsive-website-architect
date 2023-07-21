@@ -91,3 +91,8 @@ t1.reverse();
 $(document).on("click", "li", function() {
     t1.reversed(!t1.reversed());
 });
+
+var image = document.getElementsByClassName("hero-img-parallax");
+new simpleParallax(image, {
+    scale: 1.8
+});
