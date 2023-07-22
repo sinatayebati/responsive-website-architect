@@ -170,6 +170,8 @@ body {
     text-transform: uppercase !important;
 }
 
+/* ABOUT */
+
 .about-section {
     padding: 120px 0;
 }
@@ -205,5 +207,85 @@ body {
     background: black;
 }
 
+/* PROJECTS */
 
+.project-section {
+    background: #0f0f0f;
+    padding-top: 120px;
+    overflow: hidden;
+}
 
+.project-section h1 {
+    font-size: 84px;
+    font-family: "Times New Roman";
+    text-transform: uppercase;
+    color: white;
+}
+
+.project-section p {
+    color: grey;
+    width: 100%;
+}
+
+.project-heading {
+    margin-bottom: 120px;
+}
+
+.project-section ion-icon {
+    color: white;
+    font-size: 148px;
+}
+
+.project-img {
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+}
+
+.project {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+    padding: 0 0;
+    margin-top: 120px;
+}
+
+.social-media h1 {
+    font-size: 84px;
+    font-family: "Times New Roman";
+    text-transform: uppercase;
+}
+
+.social-media h3 { 
+    font-family: Helvetica;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.social-icons { 
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.social-icons ul {
+    margin: 80px 0 !important;
+    padding: 0 !important;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.social-icons ul li a {
+    color: black;
+    font-style: italic;
+    font-family: "Cormorant";
+}
