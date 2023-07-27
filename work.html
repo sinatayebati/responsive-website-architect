@@ -4,12 +4,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="sina">
+      <meta name="author" content="harrnish">
 
-      <title>Portfolio for Architects</title>
+      <title>Work | Portfolio Website Template | CODEGRID</title>
 
       <!-- stylesheet -->
-      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="style.css">
 
       <!-- bootstrap cdns -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -18,12 +18,9 @@
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 
-      <!-- terminal effect -->
-      <script src="assets/js/t.min.js"></script>
-
       <!-- for on scroll animations -->
-      <link rel="stylesheet" href="assets/css/animate.css">
-      <script src="assets/js/wow.min.js"></script>
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
 
 </head>
 <body>
@@ -58,30 +55,31 @@
                         <li><a href="contact.html">contact<span>.</span></a></li>
                   </ul>
             </div>
+
             <!--------------- navbar ends here --------------->
 
-
+            <div class="whitespace"></div>
 
             <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <h1 class="line anim-typewriter">I make brands matter in culture.</h1>
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
+
+                        <div class="row">
+                              <div class="col-lg-8">
+
+                                    <h3 class="wow fadeInUp" data-wow-delay="1s">work.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay="1.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, accusantium sint quod voluptatem dolorum, quaerat, ut iusto cumque magni ab repudiandae, quasi minus unde temporibus nulla eum eaque! Placeat praesentium sunt suscipit laboriosam deserunt commodi atque corporis, iure maiores dicta, fugit similique.</p>
+
+                              </div>
+                        </div>
                   </div>
             </div>
 
-            <div class="scroll-down"></div>
             <!--------------- hero section ends here --------------->
-
-
 
             <!--------------- projects section starts here --------------->
             <div class="container-fluid">
-                  <br><br><br>
-
-                  <h6>Selected projects</h6>
-
-                  <div class="vertical"></div>
-                  <br>
 
                   <div class="whitespace"></div>
                   <div class="whitespace"></div>
@@ -89,7 +87,7 @@
                   <div class="row">
                         <div class="col-lg-8"></div>
 
-                        <div class="col-lg-4 project project1 wow fadeInUp" onclick="location.href='project.html'"></div>
+                        <div class="col-lg-4 project project1 wow fadeInUp" data-wow-delay="1.4s" onclick="location.href='project.html'"></div>
                   </div>
 
                   <div class="whitespace"></div>
@@ -122,9 +120,8 @@
 
                   <div class="whitespace"></div>
             </div>
+
             <!--------------- projects section ends here --------------->
-
-
 
             <!--------------- footer starts here --------------->
             <div class="footer">
@@ -177,6 +174,7 @@
                         </div>
                   </div>
             </div>
+
             <!--------------- footer ends here --------------->
 
             <br><br><br><br>
@@ -190,7 +188,6 @@
       <script type="text/javascript">
 
       // navigation starts here
-
       $("#toggle").click(function() {
             $(this).toggleClass('on');
             $("#resize").toggleClass("active");
@@ -226,6 +223,7 @@
       // nav animation ends
 
       new WOW().init();
+
 
       </script>
 </body>
