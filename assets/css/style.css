@@ -299,18 +299,9 @@ h6 {
       height: 500px;
 }
 
-/*
 .project1 {
-      background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80) no-repeat 50% 50%;
+      background: url("../img/project-1/1.jpg") no-repeat 50% 50%;
       background-size: cover;
-}
-*/
-
-.project1 {
-      background: url("");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
 }
 
 .project1::after {
@@ -321,7 +312,7 @@ h6 {
       color: #fff;
       display: block;
       top: 8%;
-      left: -60%;
+      left: -100%;
       right: 0;
       bottom: 0;
 }
