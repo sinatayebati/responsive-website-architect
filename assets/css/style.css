@@ -305,16 +305,17 @@ h6 {
 }
 
 .project1::after {
-      content: "Behnoode House 2023";
+      content: "Behnoode House \A 2023";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
       top: 10%;
-      left: -100%;
+      left: -80%;
       right: 0;
       bottom: 0;
+      white-space: pre-wrap; /* Preserve line breaks and wrap text */
 }
 
 
@@ -324,45 +325,7 @@ h6 {
 }
 
 .project2::after {
-      content: "Behnoode House 2023";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: #fff;
-      display: block;
-      top: 80%;
-      left: 115%;
-      right: 0;
-      bottom: 0;
-}
-
-
-.project3 {
-      background: url("../img/project-1/7.jpg") no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project3::after {
-      content: "Behnoode House 2021";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: #fff;
-      display: block;
-      top: 80%;
-      left: -100%;
-      right: 0;
-      bottom: 0;
-}
-
-
-.project4 {
-      background: url("../img/project-1/5.jpg") no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project4::after {
-      content: "Behnoode House 2020";
+      content: "Behnoode House \A 2022";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -372,6 +335,47 @@ h6 {
       left: 115%;
       right: 0;
       bottom: 0;
+      white-space: pre-wrap; /* Preserve line breaks and wrap text */
+}
+
+
+.project3 {
+      background: url("../img/project-1/7.jpg") no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project3::after {
+      content: "Behnoode House \A 2021";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: -80%;
+      right: 0;
+      bottom: 0;
+      white-space: pre-wrap; /* Preserve line breaks and wrap text */
+}
+
+
+.project4 {
+      background: url("../img/project-1/5.jpg") no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project4::after {
+      content: "Behnoode House \A 2020";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: 115%;
+      right: 0;
+      bottom: 0;
+      white-space: pre-wrap; /* Preserve line breaks and wrap text */
 }
 
 
