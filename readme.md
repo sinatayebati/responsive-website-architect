@@ -8,6 +8,7 @@ This website is largly inspired by <a href="https://github.com/codegridweb">Code
 <p align="center">
     <img src="assets/img/demo/Screenshot 2023-07-30 at 8.20.15 PM.png" width = 230px >
     <img src="assets/img/demo/Screenshot 2023-07-30 at 8.21.12 PM.png" width = 230px />
+    <img src="assets/img/demo/Screenshot 2023-07-30 at 8.20.54 PM.png" width = 230px />
 </p>
 
 ## Deploying to Github Pages
